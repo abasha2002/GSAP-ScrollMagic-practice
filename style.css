@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'dance';
+    src: url(./DancingScript-Regular.ttf);
+}
+
+@media only screen and (max-width: 768px){
+    h1,h2{
+        font-size: 25px !important;
+    }
+    h3, h4{
+        font-size: 40px !important;
+    }
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: 'dance';
+    font-size: 100px;
+    font-style: italic;
+    color: rgb(214, 66, 7);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(68, 0, 242);
+}
+h2{
+    font-family: 'dance';
+    font-size: 100px;
+    font-style: italic;
+    color: rgb(7, 7, 1);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(6, 252, 199);
+}
+h3{
+    font-family: 'dance';
+    font-size: 100px;
+    text-align: center;
+    font-style: italic;
+    color: red;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+}
+h4{
+    font-family: 'dance';
+    font-size: 100px;
+    text-align: center;
+    font-style: italic;
+    color: violet;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: pink;
+}
+.paper-plane{
+    width: 100px;
+    top: 50%;
+    left: 50px;
+    position: absolute;
+}
+.death{
+    width: 70px;
+    top: 30%;
+    left: 50px;
+    position: absolute;
+}
+
+header{
+    background: linear-gradient(to bottom, #ff9100, #e9057b, #a6c0fe);
+}
+.animation{
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #a6c0fe 0%, #fa4148 100%);
+    position: relative;
+    overflow: hidden;
+}
+.death-animation{
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #fa4148, #370101);
+    position: relative;
+    overflow: hidden;
+}
+footer{
+    background: linear-gradient(to bottom, #370101, #000000, #bd0707);
+}
