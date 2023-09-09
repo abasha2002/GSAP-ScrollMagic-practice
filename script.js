@@ -33,7 +33,7 @@ function updateFlightPath() {
         { x: -30, y: 130 },
         { x: 50, y: -210 },
         { x: 70, y: -120 },
-        { x: window.innerWidth, y: 50 },
+        { x: window.innerWidth/2, y: 50 },
       ],
     };
   }
